@@ -1,0 +1,125 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+body {
+  background: #efefef;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.goals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 80%;
+}
+
+.header-bar {
+  flex: 0 0 20%;
+  margin-left: 50px;
+  padding: 30px;
+  background: white;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.current-activity {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h3 {
+      font-weight: 500;
+    }
+  }
+}
+
+.activity-history_section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px;
+  .history-item {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 25%;
+    gap: 10px;
+    align-items: center;
+    .history-item_title {
+      font-size: 25px;
+      text-align: left;
+    }
+    .additional-minus {
+      color: #ff1717;
+    }
+    .additional-plus {
+      color: #00ce00;
+    }
+    .history-item_time {
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.8);
+      text-align: left;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .history-item_date {
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 18px;
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .goals-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@import "login";
+@import "home";
+@import "goals";
