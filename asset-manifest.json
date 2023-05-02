@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fitness_tracker/static/css/main.f168748d.css",
+    "main.js": "/fitness_tracker/static/js/main.d4535d1a.js",
+    "static/js/787.fa3c4679.chunk.js": "/fitness_tracker/static/js/787.fa3c4679.chunk.js",
+    "index.html": "/fitness_tracker/index.html",
+    "main.f168748d.css.map": "/fitness_tracker/static/css/main.f168748d.css.map",
+    "main.d4535d1a.js.map": "/fitness_tracker/static/js/main.d4535d1a.js.map",
+    "787.fa3c4679.chunk.js.map": "/fitness_tracker/static/js/787.fa3c4679.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f168748d.css",
+    "static/js/main.d4535d1a.js"
+  ]
+}
